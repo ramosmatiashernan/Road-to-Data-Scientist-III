@@ -2,8 +2,10 @@
 
 In this project, a 4 CNN models for sport predicting has been developed. It was used transfer learning for 3 of the models, incorporating the pretrained weights of "ResNet50", "EfficientNetB0" and "MobileNetV2", respectively. One of the models was only developed with convolutional/pool/batchnormalization/dense layers only using the training data for weights calculation. 
 
-Transfer Learning using Pre-trained model¶
-What is transfer learning?
+Transfer learning proved to be essential for predicting 100 different types of sports-based images. The model that was built from scratch without using pretrained models, only reach nearly 50 % of accuracy in the test dataset, while the other 3 models that integrates transfer learning, achieved over 90 % accuracy in few epochs.
+
+# Transfer Learning using Pre-trained model
+# What is transfer learning?
 
 Transfer learning is a machine learning technique that allows a pre-trained model, which has been trained on a large dataset, to be reused as a starting point for a different but related task or dataset. Instead of training a model from scratch, transfer learning leverages the knowledge and learned representations of the pre-trained model to accelerate and improve the training process for a new task.
 
@@ -19,4 +21,4 @@ Improved Performance: Pre-trained models often exhibit strong generalization cap
 
 Handling Data Scarcity: Transfer learning is particularly useful when the target task has limited labeled data. The pre-trained model's knowledge serves as a form of regularization, preventing overfitting and improving generalization on the new dataset.
 
-The dataset used was provided by Möbius, accessible at the following URL: https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists/data
+The dataset used was provided by Gerry, accessible at the following URL: https://www.kaggle.com/datasets/gpiosenka/sports-classification
