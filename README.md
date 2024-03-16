@@ -1,4 +1,4 @@
-# Road-to-Data-Scientist-III (Deep Learning CNN for Image Classification)
+# Road to Data Scientist III (Deep Learning CNN for Image Classification)
 
 In this project, 4 CNN models for sport predicting has been developed. It was used transfer learning for 3 of the models, incorporating the pretrained weights of "ResNet50", "EfficientNetB0" and "MobileNetV2", respectively. One of the models was only developed with convolutional/pool/batchnormalization/dense layers only using the training data for weights calculation. 
 
