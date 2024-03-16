@@ -4,8 +4,7 @@ In this project, a 4 CNN models for sport predicting has been developed. It was 
 
 Transfer learning proved to be essential for predicting 100 different types of sports-based images. The model that was built from scratch without using pretrained models, only reach nearly 50 % of accuracy in the test dataset, while the other 3 models that integrates transfer learning, achieved over 90 % accuracy in few epochs.
 
-# Transfer Learning using Pre-trained model
-# What is transfer learning?
+# Transfer Learning using Pre-trained model. What is transfer learning?
 
 Transfer learning is a machine learning technique that allows a pre-trained model, which has been trained on a large dataset, to be reused as a starting point for a different but related task or dataset. Instead of training a model from scratch, transfer learning leverages the knowledge and learned representations of the pre-trained model to accelerate and improve the training process for a new task.
 
