@@ -1,6 +1,6 @@
 # Road-to-Data-Scientist-III (Deep Learning CNN for Image Classification)
 
-In this project, a 4 CNN models for sport predicting has been developed. It was used transfer learning for 3 of the models, incorporating the pretrained weights of "ResNet50", "EfficientNetB0" and "MobileNetV2", respectively. One of the models was only developed with convolutional/pool/batchnormalization/dense layers only using the training data for weights calculation. 
+In this project, 4 CNN models for sport predicting has been developed. It was used transfer learning for 3 of the models, incorporating the pretrained weights of "ResNet50", "EfficientNetB0" and "MobileNetV2", respectively. One of the models was only developed with convolutional/pool/batchnormalization/dense layers only using the training data for weights calculation. 
 
 Transfer learning proved to be essential for predicting 100 different types of sports-based images. The model that was built from scratch without using pretrained models, only reach nearly 50 % of accuracy in the test dataset, while the other 3 models that integrates transfer learning, achieved over 90 % accuracy in few epochs.
 
